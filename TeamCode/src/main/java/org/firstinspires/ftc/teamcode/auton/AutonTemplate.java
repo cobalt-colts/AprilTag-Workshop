@@ -33,7 +33,7 @@ import org.openftc.easyopencv.OpenCvInternalCamera;
 
 import java.util.ArrayList;
 
-@TeleOp
+@Auton
 public class AutonTemplate extends LinearOpMode
 {   
     //INTRODUCE VARIABLES HERE
