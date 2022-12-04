@@ -167,12 +167,14 @@ public class AprilTagAutonomousInitDetectionExample extends LinearOpMode
         }
 
         /* Actually do something useful */
-        if(tagOfInterest == null || tagOfInterest.id == LEFT){
-            //trajectory
+        if(tagOfInterest == null){
+            //default trajectory here if preferred
+        }else if(tagOfInterest.id == LEFT){
+            //left trajectory
         }else if(tagOfInterest.id == MIDDLE){
-            //trajectory
+            //middle trajectory
         }else{
-            //trajectory
+            //right trajectory
         }
 
 
