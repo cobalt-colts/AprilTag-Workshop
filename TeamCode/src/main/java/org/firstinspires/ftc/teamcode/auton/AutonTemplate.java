@@ -174,6 +174,22 @@ public class AutonTemplate extends LinearOpMode
 
         //PUT AUTON CODE HERE (DRIVER PRESSED THE PLAY BUTTON!)
         
+        
+        if(tagOfInterest == null){
+            //default path
+        }else{
+            switch(tagOfInterest.id){
+                case 1:
+                    break;
+                case 2:
+                    break;
+                case 3:
+                    break;
+            }
+        }
+        
+        
+        
     }
 
     void tagToTelemetry(AprilTagDetection detection)
